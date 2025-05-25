@@ -51,43 +51,107 @@
     <tr>
       <td width="50%" valign="top">
         
-## 🚀 FLAGSHIP PROJECTS
-### *Enterprise-Grade Solutions*
+<div align="center">
+  <h2>
+    <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30px" height="30px">
+    FLAGSHIP PROJECTS
+    <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30px" height="30px">
+  </h2>
+</div>
 
-<div align="left">
-
-### 🏦 **ZET PAY - FINTECH REVOLUTION**
-```typescript
-Tech Stack: Next.js 14 + TypeScript + Prisma ORM
-Features: 
-  • Real-time Payment Processing
-  • Advanced Security & Encryption  
-  • 99.9% Uptime Architecture
-  • Scalable Microservices Design
-Impact: $50K+ Revenue Generated
-```
-
-### 🤖 **NEURAL STUDY ASSISTANT**
-```python
-Tech Stack: GPT-4 + Custom Fine-tuning + Flask
-Features:
-  • Natural Language Processing
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%">
+        <h3 align="center">
+          <img src="https://emoji.discord.st/emojis/a01b5f44-f821-4014-b218-13a8b4e5d85b.gif" width="30"> 
+          ZET PAY
+        </h3>
+        <div align="center">
+          <a href="#" target="_blank">
+            <img src="https://github.com/SophieNguyen113/SophieNguyen113/blob/main/Sophie%20Nguyen%20-%20CatCat.gif" width="300" alt="ZetPay"/>
+          </a>
+          <p align="center">
+            <img src="https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js&logoColor=white&labelColor=000000&color=2B2B2B"/>
+            <img src="https://img.shields.io/badge/TypeScript-blue?style=for-the-badge&logo=typescript&logoColor=white&color=3178C6"/>
+            <img src="https://img.shields.io/badge/Prisma-ORM-white?style=for-the-badge&logo=prisma&logoColor=white&color=2D3748"/>
+          </p>
+          <p align="center">
+            <code>🔒 Real-time Payment Processing</code><br/>
+            <code>🛡️ Advanced Security & Encryption</code><br/>
+            <code>⚡ 99.9% Uptime Architecture</code><br/>
+            <code>🔄 Scalable Microservices</code>
+          </p>
+          <p align="center">
+            <img src="https://img.shields.io/badge/IMPACT-$50K+_Revenue-success?style=for-the-badge&logo=cashapp&logoColor=white"/>
+          </p>
+        </div>
+      </td>
+      <td width="50%">
+        <h3 align="center">
+          <img src="https://emoji.discord.st/emojis/768b108d-274f-4f44-a634-8477b16efce7.gif" width="30">
+          NEURAL STUDY ASSISTANT
+        </h3>
+        <div align="center">
+          <a href="#" target="_blank">
+            <img src="https://user-images.githubusercontent.com/74038190/238353480-219bcc70-f5dc-466b-9a60-29653d8e8433.gif" width="300" alt="Neural Assistant"/>
+          </a>
+          <p align="center">
+            <img src="https://img.shields.io/badge/GPT--4-412991?style=for-the-badge&logo=openai&logoColor=white"/>
+            <img src="https://img.shields.io/badge/Fine--tuning-FF6B6B?style=for-the-badge&logo=pytorch&logoColor=white"/>
+            <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/>
+          </p>
+          <p align="center">
+            <code>🧠 Natural Language Processing</code><br/>
+            <code>📚 Adaptive Learning Algorithms</code><br/>
+            <code>💬 10,000+ Student Interactions</code><br/>
+            <code>📈 95% Accuracy in Q&A Resolution</code>
+          </p>
+          <p align="center">
+            <img src="https://img.shields.io/badge/FEATURED-University_Tech_Showcase-blue?style=for-the-badge&logo=graduation-cap&logoColor=white"/>
+          </p>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
   • Adaptive Learning Algorithms
   • 10,000+ Student Interactions
   • 95% Accuracy in Q&A Resolution
 Impact: Featured in University Tech Showcase
 ```
 
-### 📱 **CAMPUS CONNECT ECOSYSTEM**
-```javascript
-Tech Stack: React Native + Firebase + Socket.io
-Features:
-  • Real-time Chat System
-  • Push Notifications + Offline Support
-  • Social Authentication
-  • 5,000+ Active University Users
-Impact: Adopted by 15+ Universities
-```
+<div align="center">
+  <table>
+    <tr>
+      <td colspan="2">
+        <h3 align="center">
+          <img src="https://emoji.discord.st/emojis/8b86fd8d-1b45-4838-8f5d-09cafd490358.gif" width="30">
+          CAMPUS CONNECT ECOSYSTEM
+        </h3>
+        <div align="center">
+          <a href="#" target="_blank">
+            <img src="https://user-images.githubusercontent.com/74038190/238353205-823e4d2c-6566-4858-b183-0645e7887dd4.gif" width="400" alt="Campus Connect"/>
+          </a>
+          <p align="center">
+            <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+            <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
+            <img src="https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white"/>
+          </p>
+          <p align="center">
+            <code>💬 Real-time Chat System</code><br/>
+            <code>🔔 Push Notifications + Offline Support</code><br/>
+            <code>🔐 Social Authentication</code><br/>
+            <code>👥 5,000+ Active University Users</code>
+          </p>
+          <p align="center">
+            <img src="https://img.shields.io/badge/ADOPTED_BY-15+_Universities-purple?style=for-the-badge&logo=university&logoColor=white"/>
+          </p>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
 
 </div>
       </td>
