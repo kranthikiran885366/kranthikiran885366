@@ -1,96 +1,274 @@
-<h1 align="center">Hi 👋, I'm Mallela Kranthi Kiran</h1>
-<h3 align="center">🚀 Full Stack | AI/ML | DevOps | Security Enthusiast | 5+ Years Experience</h3>
+<div align="center">
+  
+# 👋 Welcome to My Digital Universe
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=kranthi-kiran-mvk&label=Profile%20views&color=0e75b6&style=flat" alt="kranthi-kiran-mvk" />
-  <a href="#"><img alt="followers" title="Follow me on Github" src="https://img.shields.io/github/followers/kranthi-kiran-mvk?color=236ad3&style=flat-square" /></a>
-  <a href="#"><img alt="stars" title="GitHub Stars" src="https://img.shields.io/github/stars/kranthi-kiran-mvk?style=flat-square" /></a>
+<div style="background: linear-gradient(45deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 15px; margin: 20px 0;">
+  <h1 style="color: white; font-size: 2.5em; margin: 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
+    <marquee behavior="scroll" direction="left" scrollamount="8" style="font-weight: bold;">
+      🚀 MALLELA KRANTHI KIRAN - Full Stack Architect & AI Innovator 🚀
+    </marquee>
+  </h1>
+</div>
+
+<p style="font-size: 1.2em; color: #555; margin: 20px 0;">
+  <strong>Senior Software Engineer | AI/ML Specialist | Cloud Architect | DevSecOps Expert</strong><br>
+  <em>5+ Years of Excellence in Building Scalable Solutions</em>
 </p>
 
----
+[![Profile Views](https://komarev.com/ghpvc/?username=kranthi-kiran-mvk&label=Profile%20Views&color=667eea&style=for-the-badge)](https://github.com/kranthi-kiran-mvk)
+[![GitHub Followers](https://img.shields.io/github/followers/kranthi-kiran-mvk?color=764ba2&style=for-the-badge&logo=github&label=Followers)](https://github.com/kranthi-kiran-mvk)
+[![GitHub Stars](https://img.shields.io/github/stars/kranthi-kiran-mvk?style=for-the-badge&logo=github&color=667eea&label=Stars)](https://github.com/kranthi-kiran-mvk)
 
-### 🔭 Currently Working On:
-- `Zet Pay` — Super App (Payments, Travel, Food, Movies, Temples & more)
-- Exploring **AI bots**, full-stack platforms, and scalable solutions.
-
-### 💼 Previous Roles:
-- **Data Scientist** – UpGrad, Scienaptic Analytics  
-- **AI/ML Intern** – Turing Minds, Prodigy Infotech  
-- **Full Stack Developer** – Projects on EdTech, FinTech  
-- **System Consultant** – Infosys (GCP, AWS)
+</div>
 
 ---
 
-## 👨‍🎓 Bio
-- 🎓 B.Tech - Computer Science  
-- 💡 Learning: **AI/ML**, **Full-Stack**, **Cyber Security**  
-- 🤝 Looking to collaborate on **AI/ML & Open Source**  
-- 📝 Writing blogs & content at [dev.to/mvk](#)
+## 🎯 Current Focus & Vision
+
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+### 🚀 **Active Projects**
+- **🏦 Zet Pay** - Revolutionary Super App Platform
+  - *Integrated Payments, Travel, Entertainment & Lifestyle*
+  - *Microservices Architecture with AI Integration*
+- **🤖 AI Bot Ecosystem** - Intelligent Automation Solutions
+- **☁️ Cloud-Native Platforms** - Scalable Enterprise Solutions
+
+</td>
+<td width="50%" valign="top">
+
+### 🎯 **Innovation Areas**
+- **🧠 Artificial Intelligence & Machine Learning**
+- **🔐 Cybersecurity & Secure System Design**
+- **☁️ Cloud Architecture & DevOps Excellence**
+- **📱 Full-Stack Application Development**
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🧠 Interests
-- NLP, Deep Learning, LLMs, Secure Systems, Clean Architecture  
-- 📸 Photography | 🧘 Gym | ✈️ Travel | 🍳 Cooking | 🐶 Pet lover  
-- 🎵 Music | ☕ Tea addict | ❤️ Vegetarian  
-- 🧘 Peace | 🧠 Lifelong Learner | 💬 Teaching
+## 💼 Professional Journey
+
+<div align="center">
+
+| Role | Organization | Domain | Duration |
+|------|-------------|---------|----------|
+| 🔬 **Data Scientist** | UpGrad, Scienaptic Analytics | AI/ML & Analytics | 2+ Years |
+| 🚀 **AI/ML Engineer** | Turing Minds, Prodigy Infotech | Deep Learning & NLP | 1.5 Years |
+| 💻 **Full Stack Developer** | EdTech & FinTech Projects | Web & Mobile Apps | 2 Years |
+| ☁️ **System Consultant** | Infosys | GCP & AWS Solutions | 1 Year |
+
+</div>
 
 ---
 
-## 💡 Skills
+## 🎓 Academic Excellence & Continuous Learning
 
-### Languages  
-![Java](https://img.shields.io/badge/-Java-007396?style=flat&logo=java)  
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python)  
-![C](https://img.shields.io/badge/-C-00599C?style=flat&logo=c)  
-![HTML](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5)  
-![CSS](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3)  
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript)
-
-### Tools & Frameworks  
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react)  
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js)  
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb)  
-![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql)  
-![Express](https://img.shields.io/badge/-Express-black?style=flat&logo=express)  
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker)  
-![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat&logo=kubernetes)  
-![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat&logo=amazon-aws)
-
-### Cloud & DevOps  
-![GCP](https://img.shields.io/badge/-Google%20Cloud-4285F4?style=flat&logo=google-cloud)  
-![Azure](https://img.shields.io/badge/-Azure-0078D4?style=flat&logo=microsoft-azure)  
-![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux)  
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git)  
-![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=flat&logo=github-actions)
+<div align="center">
+<table>
+<tr>
+<td align="center" width="33%">
+<img src="https://img.shields.io/badge/Education-B.Tech%20Computer%20Science-blue?style=for-the-badge&logo=graduation-cap"/>
+<h4>🎓 Academic Foundation</h4>
+<p><em>Strong Computer Science Fundamentals</em></p>
+</td>
+<td align="center" width="33%">
+<img src="https://img.shields.io/badge/Learning-AI%2FML%20%26%20Security-green?style=for-the-badge&logo=brain"/>
+<h4>🧠 Current Learning</h4>
+<p><em>Advanced AI/ML & Cybersecurity</em></p>
+</td>
+<td align="center" width="33%">
+<img src="https://img.shields.io/badge/Content-Technical%20Writing-orange?style=for-the-badge&logo=medium"/>
+<h4>✍️ Knowledge Sharing</h4>
+<p><em>Technical Blogs & Tutorials</em></p>
+</td>
+</tr>
+</table>
+</div>
 
 ---
 
-## 📌 Quick Links
+## 🛠️ Technology Arsenal
 
-🔗 [My Projects](#)  
-📚 [My Publications](#)  
-🗂️ [My Resume](#)  
-📊 [GitHub Stats](#)
+### **Programming Languages**
+<div align="center">
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+</div>
+
+### **Frameworks & Libraries**
+<div align="center">
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/>
+<img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white"/>
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white"/>
+</div>
+
+### **Databases & Storage**
+<div align="center">
+<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
+<img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
+<img src="https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white"/>
+</div>
+
+### **Cloud & DevOps**
+<div align="center">
+<img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
+<img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white"/>
+<img src="https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
+<img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white"/>
+</div>
+
+### **Tools & Platforms**
+<div align="center">
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white"/>
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+<img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
+<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
+</div>
 
 ---
 
-## 🤝 Connect with me
+## 🌟 Beyond Code - Personal Interests
 
-<p align="center">
-  <a href="mailto:kranthi.mvk@gmail.com"><img src="https://img.shields.io/badge/-Gmail-D14836?style=flat&logo=gmail&logoColor=white"/></a>
-  <a href="https://linkedin.com/in/kranthi-kiran"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin"/></a>
-  <a href="https://twitter.com/kranthimvk"><img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white"/></a>
-  <a href="https://instagram.com/kranthi.mvks"><img src="https://img.shields.io/badge/-Instagram-E4405F?style=flat&logo=instagram&logoColor=white"/></a>
+<div align="center">
+<table>
+<tr>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Photography-📸-blueviolet?style=for-the-badge"/>
+<p><strong>Visual Storytelling</strong></p>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Fitness-💪-red?style=for-the-badge"/>
+<p><strong>Health & Wellness</strong></p>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Travel-✈️-green?style=for-the-badge"/>
+<p><strong>World Explorer</strong></p>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Cooking-🍳-orange?style=for-the-badge"/>
+<p><strong>Culinary Arts</strong></p>
+</td>
+</tr>
+<tr>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Music-🎵-purple?style=for-the-badge"/>
+<p><strong>Rhythm & Harmony</strong></p>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Teaching-📚-blue?style=for-the-badge"/>
+<p><strong>Knowledge Sharing</strong></p>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Pets-🐶-yellow?style=for-the-badge"/>
+<p><strong>Animal Lover</strong></p>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Tea-☕-brown?style=for-the-badge"/>
+<p><strong>Tea Enthusiast</strong></p>
+</td>
+</tr>
+</table>
+</div>
+
+---
+
+## 📊 GitHub Analytics & Performance
+
+<div align="center">
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=kranthi-kiran-mvk&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true"/>
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=kranthi-kiran-mvk&theme=tokyonight&hide_border=true"/>
+</div>
+
+<div align="center">
+<img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kranthi-kiran-mvk&layout=compact&theme=tokyonight&hide_border=true&langs_count=10"/>
+</div>
+
+<div align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=kranthi-kiran-mvk&theme=tokyonight&no-frame=true&column=7"/>
+</div>
+
+---
+
+## 🔗 Professional Network & Resources
+
+<div align="center">
+<table>
+<tr>
+<td align="center">
+<a href="mailto:kranthi.mvk@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a><br/>
+<strong>Email</strong>
+</td>
+<td align="center">
+<a href="https://linkedin.com/in/kranthi-kiran">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a><br/>
+<strong>Professional</strong>
+</td>
+<td align="center">
+<a href="https://twitter.com/kranthimvk">
+<img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/>
+</a><br/>
+<strong>Updates</strong>
+</td>
+<td align="center">
+<a href="https://instagram.com/kranthi.mvks">
+<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+</a><br/>
+<strong>Lifestyle</strong>
+</td>
+</tr>
+</table>
+</div>
+
+---
+
+## 📚 Quick Access Links
+
+<div align="center">
+<a href="#"><img src="https://img.shields.io/badge/🚀-My%20Projects-667eea?style=for-the-badge&logoColor=white"/></a>
+<a href="#"><img src="https://img.shields.io/badge/📑-Resume-764ba2?style=for-the-badge&logoColor=white"/></a>
+<a href="#"><img src="https://img.shields.io/badge/📝-Publications-667eea?style=for-the-badge&logoColor=white"/></a>
+<a href="#"><img src="https://img.shields.io/badge/🎯-Portfolio-764ba2?style=for-the-badge&logoColor=white"/></a>
+</div>
+
+---
+
+<div align="center">
+
+### 💫 **"Code is Poetry, Innovation is Art"** 💫
+
+<div style="background: linear-gradient(45deg, #667eea 0%, #764ba2 100%); padding: 15px; border-radius: 10px; margin: 20px 0;">
+<p style="color: white; font-size: 1.1em; margin: 0;">
+<strong>🌟 Always Learning • Always Building • Always Inspiring 🌟</strong><br/>
+<em>Transforming Ideas into Digital Reality</em>
+</p>
+</div>
+
+---
+
+<p style="font-style: italic; color: #666;">
+⚡ Powered by Passion & Innovation | Crafted with ❤️ by MVK | Keep Exploring the Infinite ✨
 </p>
 
----
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kranthi-kiran-mvk&show_icons=true&theme=radical" width="49%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kranthi-kiran-mvk&theme=radical" width="49%" />
-</p>
-
----
-
-> Powered by ❤️ MVK | Keep Exploring ✨
+</div>
