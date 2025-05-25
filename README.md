@@ -1,19 +1,11 @@
+# 🌟 KRANTHI KIRAN - THE DIGITAL ARCHITECT 🌟
+
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24&height=300&section=header&text=KRANTHI%20KIRAN&desc=THE%20DIGITAL%20ARCHITECT&fontSize=60&fontAlignY=35&descAlignY=55&fontColor=fff&animation=twinkling&descSize=25" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=200&section=header&text=WELCOME%20TO%20THE%20FUTURE&fontSize=40&fontColor=fff&animation=twinkling&fontAlignY=30" width="100%"/>
 </div>
 
 <div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=50&duration=3000&pause=1000&color=00C7FF&background=0D1117&center=true&vCenter=true&multiline=true&repeat=true&width=1500&height=320&lines=Welcome+to+My+Digital+Universe+🌌;Where+Code+Meets+Innovation+💫;Transforming+Ideas+into+Reality+✨;Building+the+Future%2C+One+Line+at+a+Time+⚡" alt="Typing SVG" />
-  </a>
-</div>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Snake Animation"/>
-</div>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=kranthikiran885366&theme=darkhub&no-frame=true&no-bg=true&row=1&column=7" width="100%" alt="Trophy"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=45&duration=2000&pause=500&color=667EEA&background=FFFFFF00&center=true&vCenter=true&multiline=true&repeat=true&width=1000&height=200&lines=🚀+NEXT-GEN+DEVELOPER;💡+AI+INNOVATOR;🏗️+SYSTEM+ARCHITECT;⚡+PERFORMANCE+OPTIMIZER;🌟+CODE+POET" alt="Dynamic Title"/>
 </div>
 
 <div align="center">
@@ -23,14 +15,9 @@
 ## 💻 CODING PROFILES
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kranthikiran885366&bg_color=0D1117&color=00C7FF&line=00C7FF&point=FFFFFF&area=true&hide_border=true" width="100%"/>
-
-<div align="center">
   <a href="https://github.com/kranthikiran885366" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kranthikiran885366&theme=dark&hide_border=true&background=0D1117&stroke=00C7FF&ring=00C7FF&fire=00C7FF&currStreakLabel=00C7FF" alt="GitHub Streak" />
-  <img src="https://github-readme-stats.vercel.app/api?username=kranthikiran885366&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=00C7FF&icon_color=00C7FF" alt="GitHub Stats" />
   <a href="https://www.linkedin.com/in/kranthi-kiran-mallela-2464ab2b0" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
