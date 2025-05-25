@@ -47,25 +47,39 @@
 <br/>
 
 <div align="center">
-  <table>
-    <tr>
-      <td width="50%" valign="top">
-        
-<div align="center">
-  <h2>
-    <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="40px" height="40px" class="rotating-image">
-    <span class="gradient-text">FLAGSHIP PROJECTS</span>
-    <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="40px" height="40px" class="rotating-image">
-  </h2>
+  <div class="projects-container">
+    <div class="section-header">
+      <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="40" height="40" class="rotating-image">
+      <h2 class="gradient-text">FLAGSHIP PROJECTS</h2>
+      <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="40" height="40" class="rotating-image">
+    </div>
+  </div>
 
   <style>
+    .projects-container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 30px;
+    }
+
     .rotating-image {
       animation: rotate 5s linear infinite;
     }
+
     @keyframes rotate {
       from { transform: rotate(0deg); }
       to { transform: rotate(360deg); }
     }
+
     .gradient-text {
       background: linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);
       -webkit-background-clip: text;
@@ -73,13 +87,93 @@
       color: transparent;
       font-size: 2.5em;
       font-weight: bold;
+      margin: 0;
+      padding: 0;
+    }
       animation: gradient 3s ease infinite;
       background-size: 300% 300%;
     }
+
     @keyframes gradient {
       0% { background-position: 0% 50%; }
       50% { background-position: 100% 50%; }
       100% { background-position: 0% 50%; }
+    }
+
+    .project-card {
+      width: 100%;
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+    }
+
+    .project-header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+
+    .project-content {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .image-container {
+      position: relative;
+      margin: 0 auto;
+    }
+
+    .hover-scale {
+      transition: transform 0.3s ease;
+    }
+
+    .hover-scale:hover {
+      transform: scale(1.05);
+    }
+
+    .tech-stack {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin: 15px 0;
+    }
+
+    .tech-badge {
+      transition: transform 0.2s ease;
+    }
+
+    .tech-badge:hover {
+      transform: translateY(-3px);
+    }
+
+    .feature-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .feature-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .feature-text {
+      font-size: 1.1em;
+    }
+
+    .impact-badge {
+      margin-top: 15px;
+      text-align: center;
     }
   </style>
 </div>
