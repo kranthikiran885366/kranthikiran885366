@@ -221,17 +221,16 @@
 \`\`\`
 
 ### 🌟 **INDUSTRY READINESS MATRIX**
-\`\`\`json
-{
-  "system_design": "EXPERT LEVEL ⭐⭐⭐⭐⭐",
-  "scalability": "ADVANCED ARCHITECTURE ⭐⭐⭐⭐⭐",
-  "cloud_platforms": "AWS + GCP + AZURE ⭐⭐⭐⭐⭐",
-  "team_leadership": "PROVEN TRACK RECORD ⭐⭐⭐⭐⭐",
-  "product_mindset": "USER-CENTRIC APPROACH ⭐⭐⭐⭐⭐",
-  "innovation_quotient": "FUTURE-FORWARD ⭐⭐⭐⭐⭐",
-  "problem_solving": "ALGORITHMIC GENIUS ⭐⭐⭐⭐⭐",
-  "code_quality": "PRODUCTION EXCELLENCE ⭐⭐⭐⭐⭐"
-}
+
+
+  "system_design"   :   "EXPERT LEVEL ⭐⭐⭐⭐⭐",
+  "scalability"     :  "ADVANCED ARCHITECTURE ⭐⭐⭐⭐⭐",
+  "cloud_platforms" :  "AWS + GCP + AZURE ⭐⭐⭐⭐⭐",
+  "team_leadership" :  "PROVEN TRACK RECORD ⭐⭐⭐⭐⭐",
+  "product_mindset" :  "USER-CENTRIC APPROACH ⭐⭐⭐⭐⭐",
+  "problem_solving" :  "ALGORITHMIC GENIUS ⭐⭐⭐⭐⭐",
+  "code_quality"    :  "PRODUCTION EXCELLENCE ⭐⭐⭐⭐⭐"
+
 \`\`\`
 
 ### 🎯 **CERTIFICATIONS & CREDENTIALS**
