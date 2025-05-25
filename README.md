@@ -502,41 +502,6 @@ Leadership Impact:
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=100&section=footer" width="100%"/>
 </div>
-\`\`\`
 
-This version is fully GitHub-compatible and includes:
 
-✅ **GitHub-Compatible Features:**
-- No custom CSS/styles (removed all `<style>` tags)
-- Uses only supported HTML elements
-- Animated GIFs and SVGs for visual appeal
-- Dynamic typing animations
-- Skill icons and badges
-- Proper table layouts
-- Code blocks with syntax highlighting
-
-✅ **Enhanced Visual Elements:**
-- Animated headers and footers
-- Dynamic typing text
-- Skill icons from skillicons.dev
-- GitHub stats and activity graphs
-- Trophy displays
-- Animated GIFs for engagement
-
-✅ **Updated Profile Links:**
-- GitHub: kranthikiran885366
-- LinkedIn: kranthi-kiran-mallela-2464ab2b0
-- LeetCode: mallelakranthikiran
-- CodeChef: kranthi88
-- CodeForces: Kranthi88
-- HackerRank: mallelakranthik1
-- Gmail: mallelakranthikiran@gmail.com
-
-✅ **Professional Structure:**
-- Clean, organized sections
-- Responsive table layouts
-- Proper markdown formatting
-- Eye-catching badges and metrics
-
-This README will display perfectly on GitHub with all the animations and visual elements working properly!
-
+ 
