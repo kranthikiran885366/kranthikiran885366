@@ -1,7 +1,73 @@
 # 🌟 KRANTHI KIRAN - THE DIGITAL ARCHITECT 🌟
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=200&section=header&text=WELCOME%20TO%20THE%20FUTURE&fontSize=40&fontColor=fff&animation=twinkling&fontAlignY=30" width="100%"/>
+<div align="center" class="header-container">
+  <div class="welcome-banner">
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=200&section=header&text=WELCOME%20TO%20THE%20FUTURE&fontSize=40&fontColor=fff&animation=twinkling&fontAlignY=30" width="100%" class="banner-image"/>
+    <div class="floating-elements">
+      <div class="tech-particle" style="--delay: 0s">⚛️</div>
+      <div class="tech-particle" style="--delay: 1s">🚀</div>
+      <div class="tech-particle" style="--delay: 2s">💻</div>
+      <div class="tech-particle" style="--delay: 3s">🔮</div>
+    </div>
+  </div>
+
+  <style>
+    .header-container {
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 2rem;
+    }
+
+    .welcome-banner {
+      position: relative;
+      animation: glow 3s ease-in-out infinite;
+    }
+
+    .banner-image {
+      filter: drop-shadow(0 0 10px rgba(102, 126, 234, 0.5));
+    }
+
+    .floating-elements {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+    }
+
+    .tech-particle {
+      position: absolute;
+      font-size: 24px;
+      animation: float 4s ease-in-out infinite;
+      animation-delay: var(--delay);
+      opacity: 0.8;
+      filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
+    }
+
+    .tech-particle:nth-child(1) { top: 20%; left: 20%; }
+    .tech-particle:nth-child(2) { top: 30%; right: 20%; }
+    .tech-particle:nth-child(3) { bottom: 30%; left: 30%; }
+    .tech-particle:nth-child(4) { bottom: 20%; right: 30%; }
+
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0) rotate(0deg);
+      }
+      50% {
+        transform: translateY(-20px) rotate(10deg);
+      }
+    }
+
+    @keyframes glow {
+      0%, 100% {
+        filter: drop-shadow(0 0 5px rgba(102, 126, 234, 0.5));
+      }
+      50% {
+        filter: drop-shadow(0 0 20px rgba(102, 126, 234, 0.8));
+      }
+    }
+  </style>
 </div>
 
 <div align="center">
@@ -51,32 +117,458 @@
     <tr>
       <td width="50%" valign="top">
         
-## 🚀 FLAGSHIP PROJECTS
-### *Enterprise-Grade Solutions*
+<div class="projects-section">
+  <h2 class="section-title">
+    <span class="emoji-icon">🚀</span>
+    <span class="title-text">FLAGSHIP PROJECTS</span>
+    <span class="emoji-icon">🚀</span>
+  </h2>
+  <h3 class="section-subtitle">*Enterprise-Grade Solutions*</h3>
+
+  <style>
+    .projects-section {
+      position: relative;
+      padding: 2rem;
+      background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(118, 75, 162, 0.05) 100%);
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      transform-style: preserve-3d;
+      perspective: 1000px;
+    }
+
+    .section-title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 0.5rem;
+      font-size: 2.5em;
+      background: linear-gradient(45deg, #667eea, #764ba2);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .emoji-icon {
+      display: inline-block;
+      animation: bounce 2s ease infinite;
+      filter: drop-shadow(0 0 5px rgba(102, 126, 234, 0.5));
+    }
+
+    .section-subtitle {
+      text-align: center;
+      color: #a0aec0;
+      font-style: italic;
+      margin-bottom: 2rem;
+      animation: fadeIn 1s ease-out;
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</div>
 
 <div align="left">
 
-### 🏦 **ZET PAY - FINTECH REVOLUTION**
-```typescript
-Tech Stack: Next.js 14 + TypeScript + Prisma ORM
-Features: 
-  • Real-time Payment Processing
-  • Advanced Security & Encryption  
-  • 99.9% Uptime Architecture
-  • Scalable Microservices Design
-Impact: $50K+ Revenue Generated
-```
+<div class="project-card fintech-card">
+  <div class="card-header">
+    <div class="emoji-container">
+      <span class="project-emoji">🏦</span>
+    </div>
+    <h3 class="project-title">ZET PAY - FINTECH REVOLUTION</h3>
+  </div>
+  
+  <div class="tech-stack">
+    <div class="tech-badge nextjs">Next.js 14</div>
+    <div class="tech-badge typescript">TypeScript</div>
+    <div class="tech-badge prisma">Prisma ORM</div>
+  </div>
 
-### 🤖 **NEURAL STUDY ASSISTANT**
-```python
-Tech Stack: GPT-4 + Custom Fine-tuning + Flask
-Features:
-  • Natural Language Processing
-  • Adaptive Learning Algorithms
-  • 10,000+ Student Interactions
-  • 95% Accuracy in Q&A Resolution
-Impact: Featured in University Tech Showcase
-```
+  <div class="features-list">
+    <div class="feature-item">
+      <span class="feature-icon">🔄</span>
+      <span class="feature-text">Real-time Payment Processing</span>
+    </div>
+    <div class="feature-item">
+      <span class="feature-icon">🔒</span>
+      <span class="feature-text">Advanced Security & Encryption</span>
+    </div>
+    <div class="feature-item">
+      <span class="feature-icon">⚡</span>
+      <span class="feature-text">99.9% Uptime Architecture</span>
+    </div>
+    <div class="feature-item">
+      <span class="feature-icon">🔄</span>
+      <span class="feature-text">Scalable Microservices Design</span>
+    </div>
+  </div>
+
+  <div class="impact-badge">
+    <span class="impact-icon">💰</span>
+    <span class="impact-text">$50K+ Revenue Generated</span>
+  </div>
+</div>
+
+<style>
+  .project-card {
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+    transform-style: preserve-3d;
+  }
+
+  .project-card:hover {
+    transform: translateY(-5px) rotateX(5deg);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border-color: rgba(102, 126, 234, 0.3);
+  }
+
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .emoji-container {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: pulse 2s infinite;
+  }
+
+  .project-emoji {
+    font-size: 1.5rem;
+  }
+
+  .project-title {
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 1.3rem;
+    margin: 0;
+  }
+
+  .tech-stack {
+    display: flex;
+    gap: 0.8rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+  }
+
+  .tech-badge {
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    transition: transform 0.2s ease;
+    animation: fadeInUp 0.5s ease-out forwards;
+    opacity: 0;
+  }
+
+  .tech-badge:hover {
+    transform: translateY(-3px);
+  }
+
+  .nextjs { background: #000000; color: white; animation-delay: 0.1s; }
+  .typescript { background: #3178C6; color: white; animation-delay: 0.2s; }
+  .prisma { background: #2D3748; color: white; animation-delay: 0.3s; }
+
+  .features-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .feature-item {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.03);
+    animation: slideIn 0.5s ease-out forwards;
+    opacity: 0;
+  }
+
+  .feature-icon {
+    font-size: 1.2rem;
+  }
+
+  .impact-badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 20px;
+    animation: glow 2s infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+  }
+
+  @keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes slideIn {
+    from { opacity: 0; transform: translateX(-20px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+
+  @keyframes glow {
+    0%, 100% { box-shadow: 0 0 5px rgba(102, 126, 234, 0.5); }
+    50% { box-shadow: 0 0 20px rgba(102, 126, 234, 0.8); }
+  }
+</style>
+
+<div class="project-card ai-card">
+  <div class="card-header">
+    <div class="emoji-container ai-emoji">
+      <span class="project-emoji">🤖</span>
+    </div>
+    <h3 class="project-title">NEURAL STUDY ASSISTANT</h3>
+  </div>
+  
+  <div class="tech-stack">
+    <div class="tech-badge gpt4">GPT-4</div>
+    <div class="tech-badge finetuning">Custom Fine-tuning</div>
+    <div class="tech-badge flask">Flask</div>
+  </div>
+
+  <div class="features-list ai-features">
+    <div class="feature-item">
+      <span class="feature-icon">🧠</span>
+      <span class="feature-text">Natural Language Processing</span>
+    </div>
+    <div class="feature-item">
+      <span class="feature-icon">📚</span>
+      <span class="feature-text">Adaptive Learning Algorithms</span>
+    </div>
+    <div class="feature-item">
+      <span class="feature-icon">💬</span>
+      <span class="feature-text">10,000+ Student Interactions</span>
+    </div>
+    <div class="feature-item">
+      <span class="feature-icon">📈</span>
+      <span class="feature-text">95% Accuracy in Q&A Resolution</span>
+    </div>
+  </div>
+
+  <div class="impact-badge ai-impact">
+    <span class="impact-icon">🎓</span>
+    <span class="impact-text">Featured in University Tech Showcase</span>
+  </div>
+</div>
+
+<style>
+  .ai-card {
+    background: linear-gradient(135deg, rgba(65, 88, 208, 0.05) 0%, rgba(200, 80, 192, 0.05) 100%);
+  }
+
+  .ai-card:hover {
+    background: linear-gradient(135deg, rgba(65, 88, 208, 0.1) 0%, rgba(200, 80, 192, 0.1) 100%);
+  }
+
+  .ai-emoji {
+    background: linear-gradient(135deg, #4158D0 0%, #C850C0 100%);
+    animation: neuralPulse 3s infinite;
+  }
+
+  .gpt4 { 
+    background: #412991; 
+    color: white; 
+    animation-delay: 0.1s;
+    box-shadow: 0 0 10px rgba(65, 41, 145, 0.3);
+  }
+
+  .finetuning { 
+    background: #FF6B6B; 
+    color: white; 
+    animation-delay: 0.2s;
+    box-shadow: 0 0 10px rgba(255, 107, 107, 0.3);
+  }
+
+  .flask { 
+    background: #000000; 
+    color: white; 
+    animation-delay: 0.3s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .ai-features .feature-item {
+    background: rgba(65, 88, 208, 0.05);
+    border-left: 3px solid #4158D0;
+    transform-origin: left;
+  }
+
+  .ai-features .feature-item:hover {
+    background: rgba(65, 88, 208, 0.1);
+    transform: scale(1.02);
+  }
+
+  .ai-impact {
+    background: linear-gradient(135deg, #4158D0 0%, #C850C0 100%);
+    animation: neuralGlow 3s infinite;
+  }
+
+  @keyframes neuralPulse {
+    0%, 100% { 
+      box-shadow: 0 0 5px rgba(65, 88, 208, 0.5);
+      transform: scale(1);
+    }
+    50% { 
+      box-shadow: 0 0 20px rgba(200, 80, 192, 0.8);
+      transform: scale(1.05);
+    }
+  }
+
+  @keyframes neuralGlow {
+    0%, 100% { 
+      box-shadow: 0 0 10px rgba(65, 88, 208, 0.5);
+      transform: translateY(0);
+    }
+    50% { 
+      box-shadow: 0 0 20px rgba(200, 80, 192, 0.8);
+      transform: translateY(-2px);
+    }
+  }
+</style>
+
+<div class="project-card ecosystem-card">
+  <div class="card-header">
+    <div class="emoji-container eco-emoji">
+      <span class="project-emoji">📱</span>
+    </div>
+    <h3 class="project-title">CAMPUS CONNECT ECOSYSTEM</h3>
+  </div>
+  
+  <div class="tech-stack">
+    <div class="tech-badge react-native">React Native</div>
+    <div class="tech-badge firebase">Firebase</div>
+    <div class="tech-badge nodejs">Node.js</div>
+  </div>
+
+  <div class="features-list eco-features">
+    <div class="feature-item">
+      <span class="feature-icon">🔄</span>
+      <span class="feature-text">Real-time Event Updates</span>
+    </div>
+    <div class="feature-item">
+      <span class="feature-icon">📱</span>
+      <span class="feature-text">Cross-platform Support</span>
+    </div>
+    <div class="feature-item">
+      <span class="feature-icon">💳</span>
+      <span class="feature-text">Integrated Payment Gateway</span>
+    </div>
+    <div class="feature-item">
+      <span class="feature-icon">🔔</span>
+      <span class="feature-text">Push Notifications</span>
+    </div>
+  </div>
+
+  <div class="impact-badge eco-impact">
+    <span class="impact-icon">🏫</span>
+    <span class="impact-text">Adopted by 5+ Universities</span>
+  </div>
+</div>
+
+<style>
+  .ecosystem-card {
+    background: linear-gradient(135deg, rgba(46, 204, 113, 0.05) 0%, rgba(52, 152, 219, 0.05) 100%);
+  }
+
+  .ecosystem-card:hover {
+    background: linear-gradient(135deg, rgba(46, 204, 113, 0.1) 0%, rgba(52, 152, 219, 0.1) 100%);
+  }
+
+  .eco-emoji {
+    background: linear-gradient(135deg, #2ecc71 0%, #3498db 100%);
+    animation: ecosystemPulse 3s infinite;
+  }
+
+  .react-native { 
+    background: #61dafb; 
+    color: black; 
+    animation-delay: 0.1s;
+    box-shadow: 0 0 10px rgba(97, 218, 251, 0.3);
+  }
+
+  .firebase { 
+    background: #ffca28; 
+    color: black; 
+    animation-delay: 0.2s;
+    box-shadow: 0 0 10px rgba(255, 202, 40, 0.3);
+  }
+
+  .nodejs { 
+    background: #68a063; 
+    color: white; 
+    animation-delay: 0.3s;
+    box-shadow: 0 0 10px rgba(104, 160, 99, 0.3);
+  }
+
+  .eco-features .feature-item {
+    background: rgba(46, 204, 113, 0.05);
+    border-left: 3px solid #2ecc71;
+    transform-origin: left;
+  }
+
+  .eco-features .feature-item:hover {
+    background: rgba(46, 204, 113, 0.1);
+    transform: scale(1.02);
+  }
+
+  .eco-impact {
+    background: linear-gradient(135deg, #2ecc71 0%, #3498db 100%);
+    animation: ecosystemGlow 3s infinite;
+  }
+
+  @keyframes ecosystemPulse {
+    0%, 100% { 
+      box-shadow: 0 0 5px rgba(46, 204, 113, 0.5);
+      transform: scale(1);
+    }
+    50% { 
+      box-shadow: 0 0 20px rgba(52, 152, 219, 0.8);
+      transform: scale(1.05);
+    }
+  }
+
+  @keyframes ecosystemGlow {
+    0%, 100% { 
+      box-shadow: 0 0 10px rgba(46, 204, 113, 0.5);
+      transform: translateY(0);
+    }
+    50% { 
+      box-shadow: 0 0 20px rgba(52, 152, 219, 0.8);
+      transform: translateY(-2px);
+    }
+  }
+</style>
 
 ### 📱 **CAMPUS CONNECT ECOSYSTEM**
 ```javascript
