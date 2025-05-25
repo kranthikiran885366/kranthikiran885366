@@ -222,16 +222,19 @@
 
 ### 🌟 **INDUSTRY READINESS MATRIX**
 
-
-  "system_design"   :   "EXPERT LEVEL ⭐⭐⭐⭐⭐",
-  "scalability"     :  "ADVANCED ARCHITECTURE ⭐⭐⭐⭐⭐",
-  "cloud_platforms" :  "AWS + GCP + AZURE ⭐⭐⭐⭐⭐",
-  "team_leadership" :  "PROVEN TRACK RECORD ⭐⭐⭐⭐⭐",
-  "product_mindset" :  "USER-CENTRIC APPROACH ⭐⭐⭐⭐⭐",
-  "problem_solving" :  "ALGORITHMIC GENIUS ⭐⭐⭐⭐⭐",
-  "code_quality"    :  "PRODUCTION EXCELLENCE ⭐⭐⭐⭐⭐"
-
-\`\`\`
+```text
+┌─────────────────┬────────────────────────────────────┐
+│ EXPERTISE       │ PROFICIENCY LEVEL                  │
+├─────────────────┼────────────────────────────────────┤
+│ System Design   │ EXPERT LEVEL          ⭐⭐⭐⭐⭐ │
+│ Scalability     │ ADVANCED ARCHITECTURE ⭐⭐⭐⭐⭐ │
+│ Cloud Platforms │ AWS + GCP + AZURE     ⭐⭐⭐⭐⭐ │
+│ Team Leadership │ PROVEN TRACK RECORD   ⭐⭐⭐⭐⭐ │
+│ Product Mindset │ USER-CENTRIC APPROACH ⭐⭐⭐⭐⭐ │
+│ Problem Solving │ ALGORITHMIC GENIUS    ⭐⭐⭐⭐⭐ │
+│ Code Quality    │ PRODUCTION EXCELLENCE ⭐⭐⭐⭐⭐ │
+└─────────────────┴────────────────────────────────────┘
+```\`\`
 
 ### 🎯 **CERTIFICATIONS & CREDENTIALS**
 \`\`\`yaml
