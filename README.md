@@ -16,21 +16,66 @@
       position: relative;
       overflow: hidden;
       margin-bottom: 2rem;
+      width: 100%;
+      max-width: 100%;
     }
 
     .welcome-banner {
       position: relative;
       animation: glow 3s ease-in-out infinite;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     .banner-image {
       filter: drop-shadow(0 0 10px rgba(102, 126, 234, 0.5));
+      max-width: 100%;
+      height: auto;
     }
 
     .floating-elements {
       position: absolute;
       top: 0;
       left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    .tech-particle {
+      position: absolute;
+      font-size: 24px;
+      animation: float 4s ease-in-out infinite;
+      animation-delay: var(--delay);
+      opacity: 0.8;
+      filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
+    }
+
+    .tech-particle:nth-child(1) { top: 20%; left: 20%; }
+    .tech-particle:nth-child(2) { top: 30%; right: 20%; }
+    .tech-particle:nth-child(3) { bottom: 30%; left: 30%; }
+    .tech-particle:nth-child(4) { bottom: 20%; right: 30%; }
+
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0) rotate(0deg);
+      }
+      50% {
+        transform: translateY(-20px) rotate(10deg);
+      }
+    }
+
+    @keyframes glow {
+      0%, 100% {
+        filter: drop-shadow(0 0 5px rgba(102, 126, 234, 0.5));
+      }
+      50% {
+        filter: drop-shadow(0 0 20px rgba(102, 126, 234, 0.8));
+      }
+    }
       width: 100%;
       height: 100%;
       pointer-events: none;
