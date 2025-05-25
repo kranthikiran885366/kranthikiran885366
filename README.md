@@ -53,65 +53,287 @@
         
 <div align="center">
   <h2>
-    <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30px" height="30px">
-    FLAGSHIP PROJECTS
-    <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30px" height="30px">
+    <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="40px" height="40px" class="rotating-image">
+    <span class="gradient-text">FLAGSHIP PROJECTS</span>
+    <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="40px" height="40px" class="rotating-image">
   </h2>
+
+  <style>
+    .rotating-image {
+      animation: rotate 5s linear infinite;
+    }
+    @keyframes rotate {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    .gradient-text {
+      background: linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      font-size: 2.5em;
+      font-weight: bold;
+      animation: gradient 3s ease infinite;
+      background-size: 300% 300%;
+    }
+    @keyframes gradient {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+  </style>
 </div>
 
-<div align="center">
-  <table>
-    <tr>
-      <td width="50%">
-        <h3 align="center">
-          <img src="https://emoji.discord.st/emojis/a01b5f44-f821-4014-b218-13a8b4e5d85b.gif" width="30"> 
-          ZET PAY
-        </h3>
-        <div align="center">
-          <a href="#" target="_blank">
-            <img src="https://github.com/SophieNguyen113/SophieNguyen113/blob/main/Sophie%20Nguyen%20-%20CatCat.gif" width="300" alt="ZetPay"/>
-          </a>
-          <p align="center">
-            <img src="https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js&logoColor=white&labelColor=000000&color=2B2B2B"/>
-            <img src="https://img.shields.io/badge/TypeScript-blue?style=for-the-badge&logo=typescript&logoColor=white&color=3178C6"/>
-            <img src="https://img.shields.io/badge/Prisma-ORM-white?style=for-the-badge&logo=prisma&logoColor=white&color=2D3748"/>
-          </p>
-          <p align="center">
-            <code>🔒 Real-time Payment Processing</code><br/>
-            <code>🛡️ Advanced Security & Encryption</code><br/>
-            <code>⚡ 99.9% Uptime Architecture</code><br/>
-            <code>🔄 Scalable Microservices</code>
-          </p>
-          <p align="center">
-            <img src="https://img.shields.io/badge/IMPACT-$50K+_Revenue-success?style=for-the-badge&logo=cashapp&logoColor=white"/>
-          </p>
+<div class="project-grid">
+  <div class="project-card">
+    <div class="project-header">
+      <img src="https://user-images.githubusercontent.com/74038190/235224431-e8c8c12e-6826-47f1-89fb-2ddad83b3abf.gif" width="40">
+      <h3>ZET PAY</h3>
+    </div>
+    <div class="project-content">
+      <img src="https://user-images.githubusercontent.com/74038190/236119160-976a0405-caa7-470c-9356-16d43402ea0a.gif" width="300" alt="ZetPay" class="hover-scale"/>
+
+  <style>
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+    .project-card {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 16px;
+      backdrop-filter: blur(5px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 1.5rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+    .project-header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+    .project-header h3 {
+      background: linear-gradient(45deg, #00ff87, #60efff);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      font-size: 1.5em;
+    }
+    .hover-scale {
+      transition: transform 0.3s ease;
+    }
+    .hover-scale:hover {
+      transform: scale(1.05);
+    }
+    .tech-stack {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      justify-content: center;
+      margin: 1rem 0;
+    }
+    .feature-list {
+      background: rgba(0, 0, 0, 0.2);
+      border-radius: 8px;
+      padding: 1rem;
+      margin: 1rem 0;
+    }
+    .feature-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin: 0.5rem 0;
+      opacity: 0;
+      animation: fadeIn 0.5s ease forwards;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+      <div class="tech-stack">
+        <div class="tech-badge">
+          <img src="https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js&logoColor=white&labelColor=000000&color=2B2B2B" class="pulse"/>
         </div>
-      </td>
-      <td width="50%">
-        <h3 align="center">
-          <img src="https://emoji.discord.st/emojis/768b108d-274f-4f44-a634-8477b16efce7.gif" width="30">
-          NEURAL STUDY ASSISTANT
-        </h3>
-        <div align="center">
-          <a href="#" target="_blank">
-            <img src="https://user-images.githubusercontent.com/74038190/238353480-219bcc70-f5dc-466b-9a60-29653d8e8433.gif" width="300" alt="Neural Assistant"/>
-          </a>
-          <p align="center">
-            <img src="https://img.shields.io/badge/GPT--4-412991?style=for-the-badge&logo=openai&logoColor=white"/>
-            <img src="https://img.shields.io/badge/Fine--tuning-FF6B6B?style=for-the-badge&logo=pytorch&logoColor=white"/>
-            <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/>
-          </p>
-          <p align="center">
-            <code>🧠 Natural Language Processing</code><br/>
-            <code>📚 Adaptive Learning Algorithms</code><br/>
-            <code>💬 10,000+ Student Interactions</code><br/>
-            <code>📈 95% Accuracy in Q&A Resolution</code>
-          </p>
-          <p align="center">
-            <img src="https://img.shields.io/badge/FEATURED-University_Tech_Showcase-blue?style=for-the-badge&logo=graduation-cap&logoColor=white"/>
-          </p>
+        <div class="tech-badge">
+          <img src="https://img.shields.io/badge/TypeScript-blue?style=for-the-badge&logo=typescript&logoColor=white&color=3178C6" class="pulse"/>
         </div>
-      </td>
+        <div class="tech-badge">
+          <img src="https://img.shields.io/badge/Prisma-ORM-white?style=for-the-badge&logo=prisma&logoColor=white&color=2D3748" class="pulse"/>
+        </div>
+      </div>
+
+      <style>
+        .tech-badge {
+          transition: transform 0.3s ease;
+        }
+        .tech-badge:hover {
+          transform: translateY(-3px);
+        }
+        .pulse {
+          animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+          0% { transform: scale(1); }
+          50% { transform: scale(1.05); }
+          100% { transform: scale(1); }
+        }
+      </style>
+      <div class="feature-list">
+        <div class="feature-item" style="animation-delay: 0.1s">
+          <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="20" class="rotating-mini">
+          <code class="feature-text">🔒 Real-time Payment Processing</code>
+        </div>
+        <div class="feature-item" style="animation-delay: 0.2s">
+          <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="20" class="rotating-mini">
+          <code class="feature-text">🛡️ Advanced Security & Encryption</code>
+        </div>
+        <div class="feature-item" style="animation-delay: 0.3s">
+          <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="20" class="rotating-mini">
+          <code class="feature-text">⚡ 99.9% Uptime Architecture</code>
+        </div>
+        <div class="feature-item" style="animation-delay: 0.4s">
+          <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="20" class="rotating-mini">
+          <code class="feature-text">🔄 Scalable Microservices</code>
+        </div>
+      </div>
+
+      <style>
+        .rotating-mini {
+          animation: rotate 4s linear infinite;
+        }
+        .feature-text {
+          background: linear-gradient(45deg, #12c2e9, #c471ed);
+          -webkit-background-clip: text;
+          background-clip: text;
+          color: transparent;
+          font-weight: bold;
+        }
+      </style>
+      <div class="impact-badge" style="margin-top: 1rem;">
+        <img src="https://img.shields.io/badge/IMPACT-$50K+_Revenue-success?style=for-the-badge&logo=cashapp&logoColor=white" class="glow"/>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    .impact-badge {
+      position: relative;
+      display: inline-block;
+    }
+    .impact-badge::after {
+      content: '';
+      position: absolute;
+      top: -5px;
+      left: -5px;
+      right: -5px;
+      bottom: -5px;
+      border-radius: 8px;
+      background: linear-gradient(45deg, #00ff87, #60efff);
+      z-index: -1;
+      animation: glow 2s ease-in-out infinite;
+    }
+    @keyframes glow {
+      0% { opacity: 0.5; }
+      50% { opacity: 1; }
+      100% { opacity: 0.5; }
+    }
+  </style>
+  <div class="project-card neural-card">
+    <div class="project-header">
+      <img src="https://user-images.githubusercontent.com/74038190/235224431-e8c8c12e-6826-47f1-89fb-2ddad83b3abf.gif" width="40" class="floating">
+      <h3>NEURAL STUDY ASSISTANT</h3>
+    </div>
+    <div class="project-content">
+      <div class="image-container">
+        <img src="https://user-images.githubusercontent.com/74038190/236119160-976a0405-caa7-470c-9356-16d43402ea0a.gif" width="300" alt="Neural Assistant" class="hover-scale neural-image"/>
+      </div>
+
+      <div class="tech-stack">
+        <div class="tech-badge neural-badge">
+          <img src="https://img.shields.io/badge/GPT--4-412991?style=for-the-badge&logo=openai&logoColor=white" class="pulse"/>
+        </div>
+        <div class="tech-badge neural-badge">
+          <img src="https://img.shields.io/badge/Fine--tuning-FF6B6B?style=for-the-badge&logo=pytorch&logoColor=white" class="pulse"/>
+        </div>
+        <div class="tech-badge neural-badge">
+          <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" class="pulse"/>
+        </div>
+      </div>
+
+      <div class="feature-list neural-features">
+        <div class="feature-item" style="animation-delay: 0.1s">
+          <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="20" class="neural-icon">
+          <code class="feature-text">🧠 Natural Language Processing</code>
+        </div>
+        <div class="feature-item" style="animation-delay: 0.2s">
+          <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="20" class="neural-icon">
+          <code class="feature-text">📚 Adaptive Learning Algorithms</code>
+        </div>
+        <div class="feature-item" style="animation-delay: 0.3s">
+          <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="20" class="neural-icon">
+          <code class="feature-text">💬 10,000+ Student Interactions</code>
+        </div>
+        <div class="feature-item" style="animation-delay: 0.4s">
+          <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="20" class="neural-icon">
+          <code class="feature-text">📈 95% Accuracy in Q&A Resolution</code>
+        </div>
+      </div>
+
+      <div class="impact-badge neural-impact">
+        <img src="https://img.shields.io/badge/FEATURED-University_Tech_Showcase-blue?style=for-the-badge&logo=graduation-cap&logoColor=white" class="glow"/>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    .neural-card {
+      background: linear-gradient(135deg, rgba(65, 88, 208, 0.1) 0%, rgba(200, 80, 192, 0.1) 100%);
+    }
+    .neural-card:hover {
+      background: linear-gradient(135deg, rgba(65, 88, 208, 0.2) 0%, rgba(200, 80, 192, 0.2) 100%);
+    }
+    .floating {
+      animation: floating 3s ease-in-out infinite;
+    }
+    @keyframes floating {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0px); }
+    }
+    .neural-image {
+      filter: drop-shadow(0 0 10px rgba(200, 80, 192, 0.3));
+    }
+    .neural-features {
+      background: rgba(65, 88, 208, 0.1);
+    }
+    .neural-icon {
+      animation: pulse-glow 2s ease-in-out infinite;
+    }
+    @keyframes pulse-glow {
+      0% { filter: brightness(1); }
+      50% { filter: brightness(1.5); }
+      100% { filter: brightness(1); }
+    }
+    .neural-badge img {
+      box-shadow: 0 0 10px rgba(200, 80, 192, 0.3);
+    }
+    .neural-impact img {
+      animation: neon-glow 2s ease-in-out infinite;
+    }
+    @keyframes neon-glow {
+      0% { filter: drop-shadow(0 0 2px rgba(65, 88, 208, 0.5)); }
+      50% { filter: drop-shadow(0 0 8px rgba(200, 80, 192, 0.8)); }
+      100% { filter: drop-shadow(0 0 2px rgba(65, 88, 208, 0.5)); }
+    }
+  </style>
     </tr>
   </table>
 </div>
@@ -122,35 +344,131 @@ Impact: Featured in University Tech Showcase
 ```
 
 <div align="center">
-  <table>
-    <tr>
-      <td colspan="2">
-        <h3 align="center">
-          <img src="https://emoji.discord.st/emojis/8b86fd8d-1b45-4838-8f5d-09cafd490358.gif" width="30">
-          CAMPUS CONNECT ECOSYSTEM
-        </h3>
-        <div align="center">
-          <a href="#" target="_blank">
-            <img src="https://user-images.githubusercontent.com/74038190/238353205-823e4d2c-6566-4858-b183-0645e7887dd4.gif" width="400" alt="Campus Connect"/>
-          </a>
-          <p align="center">
-            <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-            <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
-            <img src="https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white"/>
-          </p>
-          <p align="center">
-            <code>💬 Real-time Chat System</code><br/>
-            <code>🔔 Push Notifications + Offline Support</code><br/>
-            <code>🔐 Social Authentication</code><br/>
-            <code>👥 5,000+ Active University Users</code>
-          </p>
-          <p align="center">
-            <img src="https://img.shields.io/badge/ADOPTED_BY-15+_Universities-purple?style=for-the-badge&logo=university&logoColor=white"/>
-          </p>
+  <div class="project-card campus-card">
+    <div class="project-header">
+      <img src="https://user-images.githubusercontent.com/74038190/216122069-5b8169d7-1d8e-4a13-b245-a8e4176c99f8.png" width="40" class="rotating-reverse">
+      <h3>CAMPUS CONNECT ECOSYSTEM</h3>
+    </div>
+    <div class="project-content">
+      <div class="image-container">
+        <img src="https://user-images.githubusercontent.com/74038190/238353205-823e4d2c-6566-4858-b183-0645e7887dd4.gif" width="400" alt="Campus Connect" class="hover-scale campus-image"/>
+        <div class="image-overlay"></div>
+      </div>
+
+      <div class="tech-stack campus-stack">
+        <div class="tech-badge campus-badge">
+          <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" class="pulse-strong"/>
         </div>
-      </td>
-    </tr>
-  </table>
+        <div class="tech-badge campus-badge">
+          <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" class="pulse-strong"/>
+        </div>
+        <div class="tech-badge campus-badge">
+          <img src="https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white" class="pulse-strong"/>
+        </div>
+      </div>
+
+      <div class="feature-list campus-features">
+        <div class="feature-item slide-in" style="animation-delay: 0.1s">
+          <img src="https://user-images.githubusercontent.com/74038190/216112957-034e1f8b-5468-4857-8512-9cd2bac35bb6.png" width="20" class="campus-icon">
+          <code class="feature-text">💬 Real-time Chat System</code>
+        </div>
+        <div class="feature-item slide-in" style="animation-delay: 0.2s">
+          <img src="https://user-images.githubusercontent.com/74038190/216112957-034e1f8b-5468-4857-8512-9cd2bac35bb6.png" width="20" class="campus-icon">
+          <code class="feature-text">🔔 Push Notifications + Offline Support</code>
+        </div>
+        <div class="feature-item slide-in" style="animation-delay: 0.3s">
+          <img src="https://user-images.githubusercontent.com/74038190/216112957-034e1f8b-5468-4857-8512-9cd2bac35bb6.png" width="20" class="campus-icon">
+          <code class="feature-text">🔐 Social Authentication</code>
+        </div>
+        <div class="feature-item slide-in" style="animation-delay: 0.4s">
+          <img src="https://user-images.githubusercontent.com/74038190/216112957-034e1f8b-5468-4857-8512-9cd2bac35bb6.png" width="20" class="campus-icon">
+          <code class="feature-text">👥 5,000+ Active University Users</code>
+        </div>
+      </div>
+
+      <div class="impact-badge campus-impact">
+        <img src="https://img.shields.io/badge/ADOPTED_BY-15+_Universities-purple?style=for-the-badge&logo=university&logoColor=white" class="shine"/>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    .campus-card {
+      background: linear-gradient(135deg, rgba(106, 17, 203, 0.1) 0%, rgba(37, 117, 252, 0.1) 100%);
+      transform-style: preserve-3d;
+      perspective: 1000px;
+    }
+    .campus-card:hover {
+      background: linear-gradient(135deg, rgba(106, 17, 203, 0.2) 0%, rgba(37, 117, 252, 0.2) 100%);
+      transform: translateZ(10px);
+    }
+    .rotating-reverse {
+      animation: rotate-reverse 6s linear infinite;
+    }
+    @keyframes rotate-reverse {
+      from { transform: rotate(360deg); }
+      to { transform: rotate(0deg); }
+    }
+    .campus-image {
+      position: relative;
+      filter: drop-shadow(0 0 15px rgba(37, 117, 252, 0.3));
+    }
+    .image-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(45deg, rgba(106, 17, 203, 0.1), rgba(37, 117, 252, 0.1));
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+    }
+    .campus-features {
+      background: rgba(37, 117, 252, 0.1);
+    }
+    .campus-icon {
+      animation: float 3s ease-in-out infinite;
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+    .slide-in {
+      animation: slideIn 0.5s ease-out forwards;
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    @keyframes slideIn {
+      to { opacity: 1; transform: translateX(0); }
+    }
+    .pulse-strong {
+      animation: pulseStrong 2s infinite;
+    }
+    @keyframes pulseStrong {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.08); }
+      100% { transform: scale(1); }
+    }
+    .shine {
+      position: relative;
+      overflow: hidden;
+    }
+    .shine::after {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: linear-gradient(45deg, transparent, rgba(255,255,255,0.1), transparent);
+      transform: rotate(45deg);
+      animation: shine 3s infinite;
+    }
+    @keyframes shine {
+      0% { transform: translateX(-100%) rotate(45deg); }
+      100% { transform: translateX(100%) rotate(45deg); }
+    }
+  </style>
 </div>
 
 </div>
