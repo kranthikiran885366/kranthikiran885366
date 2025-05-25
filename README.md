@@ -98,7 +98,7 @@
 </div>
 
 ### 🏦 **ZET PAY - FINTECH REVOLUTION**
-\`\`\`yaml
+
 🔥 GAME-CHANGING FEATURES:
   ⚡ Real-time Payment Processing (99.9% uptime)
   🔒 Military-Grade Security & Encryption
