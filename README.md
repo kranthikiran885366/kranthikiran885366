@@ -12,6 +12,29 @@
   <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="600"/>
 </div>
 
+## 💻 CODING PROFILES
+
+<div align="center">
+  <a href="https://github.com/kranthikiran885366" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://www.linkedin.com/in/kranthi-kiran-mallela-2464ab2b0" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://leetcode.com/u/mallelakranthikiran/" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/>
+  </a>
+  <a href="https://www.codechef.com/users/kranthi88" target="_blank">
+    <img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef"/>
+  </a>
+  <a href="https://codeforces.com/profile/Kranthi88" target="_blank">
+    <img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="CodeForces"/>
+  </a>
+  <a href="https://www.hackerrank.com/profile/mallelakranthik1" target="_blank">
+    <img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank"/>
+  </a>
+</div>
+
 ## 🎯 ELITE PERFORMANCE DASHBOARD
 
 <div align="center">
