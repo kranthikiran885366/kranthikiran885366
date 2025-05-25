@@ -47,37 +47,100 @@
 <br/>
 
 <div align="center">
-  <div class="projects-container">
-    <div class="section-header">
-      <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="40" height="40" class="rotating-image">
-      <h2 class="gradient-text">FLAGSHIP PROJECTS</h2>
-      <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="40" height="40" class="rotating-image">
+  <div class="projects-section">
+    <div class="section-header animate-header">
+      <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="40" height="40" class="rotating-image left-rotate">
+      <h2 class="gradient-text shimmer">FLAGSHIP PROJECTS</h2>
+      <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="40" height="40" class="rotating-image right-rotate">
     </div>
-  </div>
+    <div class="projects-grid">
 
   <style>
-    .projects-container {
+    .projects-section {
       width: 100%;
-      max-width: 1200px;
+      max-width: 1400px;
       margin: 0 auto;
-      padding: 20px;
+      padding: 40px 20px;
+      background: rgba(255, 255, 255, 0.02);
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+    }
+
+    .animate-header {
+      animation: slideDown 1s ease-out;
     }
 
     .section-header {
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 15px;
-      margin-bottom: 30px;
+      gap: 25px;
+      margin-bottom: 50px;
+      padding: 20px;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.1);
     }
 
-    .rotating-image {
-      animation: rotate 5s linear infinite;
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 30px;
+      padding: 20px;
     }
 
-    @keyframes rotate {
-      from { transform: rotate(0deg); }
-      to { transform: rotate(360deg); }
+    .left-rotate {
+      animation: rotateLeft 6s linear infinite;
+    }
+
+    .right-rotate {
+      animation: rotateRight 6s linear infinite;
+    }
+
+    .shimmer {
+      animation: shimmer 3s infinite;
+      background-size: 200% 100%;
+      background-position: -100%;
+    }
+
+    @keyframes rotateLeft {
+      from { transform: rotate(0deg) scale(1); }
+      50% { transform: rotate(180deg) scale(1.1); }
+      to { transform: rotate(360deg) scale(1); }
+    }
+
+    @keyframes rotateRight {
+      from { transform: rotate(360deg) scale(1); }
+      50% { transform: rotate(180deg) scale(1.1); }
+      to { transform: rotate(0deg) scale(1); }
+    }
+
+    @keyframes slideDown {
+      from { transform: translateY(-20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    @keyframes shimmer {
+      0% { background-position: -100%; }
+      50% { background-position: 100%; }
+      100% { background-position: -100%; }
+    }
+
+    @media (max-width: 768px) {
+      .projects-section {
+        padding: 20px 10px;
+      }
+
+      .projects-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .section-header {
+        gap: 15px;
+        flex-wrap: wrap;
+      }
+
+      .gradient-text {
+        font-size: 2em;
+      }
     }
 
     .gradient-text {
