@@ -1,4 +1,4 @@
-# 🚀  ahhaaa china pani kadhu ga KIRAN - THE DIGITAL ARCHITECT
+# 🚀 KRANTHI  KIRAN - THE DIGITAL ARCHITECT
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=300&section=header&text=KRANTHI%20KIRAN&fontSize=90&fontColor=fff&animation=twinkling&fontAlignY=35&desc=THE%20DIGITAL%20ARCHITECT%20%7C%20NEXT-GEN%20DEVELOPER&descAlignY=51&descAlign=50" width="100%"/>
